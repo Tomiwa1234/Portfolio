@@ -1,0 +1,45 @@
+.fas{
+    font-size: 30px;
+    justify-content: center;
+    color:rgba(255, 255, 255, 0.5);
+}
+ ul {
+    list-style-type: none;
+    background-color: black;
+    padding: 0;
+    width: 6%;
+    background-color: black;
+    position: fixed;
+    left: 0%;
+    height: 100%;
+   
+   
+}.col-img{
+    background-image: url("img/img5.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: center;
+}
+.menu{
+    position: fixed;
+}
+
+li {
+    display: block;
+    color: #000;
+    width: 100%;
+    padding-left:  20px;
+    padding-bottom:  10px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+ a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
